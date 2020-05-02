@@ -1,0 +1,613 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atlas Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/leaflet.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/ninja-slider.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<header class="p-3">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 text-center">
+					<a class="text-decoration-none text-uppercase" href="#">home</a>
+					<a class="text-decoration-none text-uppercase" href="#">about us</a>
+					<a class="text-decoration-none text-uppercase" href="#">our services</a>
+					<a class="text-decoration-none text-uppercase" href="#">portfolio</a>
+					<a class="text-decoration-none text-uppercase" href="#">our clients</a>
+					<a class="text-decoration-none text-uppercase" href="#">contacts</a>
+					<div class="dropdown">
+						<a class="text-decoration-none text-uppercase" href="#">language</a>
+						<div class="dropdown-content">
+							<a href="#">ENGLISH</a>
+							<a href="#">FRENCH</a>
+							<a href="#">GERMAN</a>
+							<a href="#">SPANISH</a>
+							<a href="#">SERBIAN</a>
+						</div>
+
+					</div>
+					<button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal"><a class="text-decoration-none text-uppercase" href="#">apply for a job</a></button> <!--  Ne sme biti u istom divu kao i language dropdown-->
+
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog modal-xl text-center">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+								</div>
+								<div class="modal-body text-center" style="margin: 0 auto;">
+									<form id="posao">
+										<input type="text" name="name" class="form-control" placeholder="NAME:" required=""><br>
+										<input type="text" name="phone" class="form-control" placeholder="NUMBER:" required=""><br>
+										<input type="email" name="email" class="form-control" placeholder="EMAIL:"><br>
+										<input type="experience" name="experience" class="form-control" placeholder="YEARS OF EXPERIENCE IN CLOTHING PRODUCTION"><br>
+										<input type="position" name="position" class="form-control" placeholder="POSITION YOU APPLYING FOR:"><br>
+										<input type="message" name="message" class="form-control" placeholder="YOUR MESSAGE:"><br>
+										<input type="submit" name="" class="form-control submit" value="SUBMIT">
+									</form>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+<section id="hero-section" class="text-light">
+	<div class="container-fluid">
+		<div class="row vh-100 align-items-center pb-5">
+			<div class="col-12 text-center">
+				<p class="display-1">ATLAS</p><hr class="hr_hero">
+				<h6 class="">Since 2001</h6>
+			</div>
+		</div>
+	</div>
+	<!-- Header -->
+</section><br><br>
+<!-- About Us -->
+<section id="intro-section">
+	<div class="row" id="first">
+		<h4 class=" w-50 col-12 text-center fade-in" id="text">ABOUT US</h4>
+		<hr class="hr_about">
+		<p class="col-12 text-center fade-in" id="text">Manufacturing garmet for some of the most respectable world fashion brands.</p>
+	</div>
+	<br>
+	<br>
+	<div class="row" id="second">
+		<p class= "col-12 justify-content-center fade-in" id="text">
+			Our team consist of hightly skilled craftsmen. Some of them with more than 30 years of experience in various apparel production phases. We are dedicated to quality, precision and flexibility. These qualities qualified us for production of clothng for some of the world's most demanding fashion markets (France, Germany, Italy).
+			Depending on your project requirements, we are able to provide cut/sew as well as full package services.
+			We welcome established brands, as well as a new fashion startups. From small to large scale production - we give flexibility to the brands to turn their creative ideas into a finished product.
+			Working with the Atlas means working with a reliable, professional and flexible clothing production partner in Serbia.
+		</p>
+	</div>
+	<br>
+
+	<div class="row" style="background-color: #F2F2F2;">
+		<div class="col-4 text-center img-fluid">
+			<img src="images/about us/1.jpg" style="width: 320px; min-height: 420px;">
+		</div>
+
+		<div class="col-4 text-center img-fluid">
+			<img src="images/about us/3.jpg" style="width: 320px; min-height: 420px;">
+		</div>
+
+		<div class="col-4 text-center img-fluid">
+			<img src="images/about us/2.jpg" style="width: 320px; min-height: 420px;">
+		</div>
+
+	</div>
+</section>
+<!--About Us-->
+<br>
+<br>
+<br>
+
+<!-- Our Services-->
+<section id="our_sevices_section">
+	<div class="row" id="first" style="background-color: #F2F2F2;">
+		<h4 class="w-100 col-12 text-center py-2" id="text">OUR SERVICES</h4>
+		<hr class="hr_about">
+	</div>
+
+
+	<div class="container1">
+
+		<div class="box" id="prva">
+			<img src="images/icons/1.png" >
+			<p id="text">TECHNICAL DRAWINGS</p>
+		</div>
+
+		<div class="box" id="druga">
+			<img src="images/icons/2.png">
+			<p id="text">LARGE AND SMALL PRODUCTION</p>
+		</div>
+
+		<div class="box" id="treca">
+			<img src="images/icons/3.png">
+			<p id="text">SAMPLES MAKING</p>
+		</div>
+
+		<div class="box" id="cetvrta">
+			<img src="images/icons/4.png">
+			<p id="text">PATTERN CUTTING</p>
+		</div>
+
+		<div class="box" id="peta">
+			<img src="images/icons/5.png">
+			<p id="text">PACKAGING AND SHIPMENT</p>
+		</div>
+
+		<div class="box" id="sesta">
+			<img src="images/icons/6.png">
+			<p id="text">QUALITY CONTROL</p>
+		</div>
+
+	</div>
+
+	<br>
+	<br>
+
+
+	<div class="row" id="first" style="background-color: #F2F2F2;">
+		<p class="w-100 col-12 text-center py-5" style="font-size: 20px" id="text" >Your clothing partner in Serbia</p>
+	</div>
+</div>
+
+</section>
+<!-- Our Services-->
+<br>
+<br>
+<br>
+
+<!-- Portfolio-->
+<section id="portfolio">
+	<div class="row">
+		<h4 class="w-100 col-12 text-center py-2" id="text">PORTFOLIO</h4>
+		<hr class="hr_about">
+		<p class="col-12 text-center" id="text">Make cloth for more than 20 years for some of the most famous fashion brand<br> around the world</p>
+	</div id="first" style="background-color: #F2F2F2;">
+
+
+	<div class="gallery" id="gallery" style="background-color: #F2F2F2; padding: 20px;">
+		<div class="slika1 col-4 text-center" id="slika1">
+			<img src="images/portfolio-images/1.jpg" onclick="lightbox(0)" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Bergame<br>autumn 2020.</p>
+		</div>
+
+		<div class="slika2 col-4 text-center" id="slika2">
+			<img src="images/portfolio-images/2.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Cassy<br>winter 2020.</p>
+		</div>
+
+		<div class="slika3 col-4 text-center" id="slika3">
+			<img src="images/portfolio-images/3.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika4 col-4 text-center" id="slika4">
+			<img src="images/portfolio/Skirt Caroll Quitterie/KB05105F-01-jupe-femme-quitterie.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika5 col-4 text-center" id="slika5">
+			<img src="images/portfolio/Skirt Caroll Turin/KB02537U-01-jupe-femme-turin.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika6 col-4 text-center" id="slika6">
+			<img src="images/portfolio/Skirt Caroll Vera/KB02618F-01-jupe-femme-vera.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika7 col-4 text-center" id="slika7">
+			<img src="images/portfolio/Skirt Caroll Vero/KC00107U-01-jupe-femme-vero.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika8 col-4 text-center" id="slika8">
+			<img src="images/portfolio/Skirt Gerard Darel Johanna/dhj20h1052100-1.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika9 col-4 text-center" id="slika9">
+			<img src="images/portfolio/Skirt Gerard Darel Joseph/dhj16h1019100-5_002.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika10 col-4 text-center" id="slika10">
+			<img src="images/portfolio/Skirt Gerard Darel Julia/dhj19h0822100-1.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika11 col-4 text-center" id="slika11">
+			<img src="images/portfolio/Skirt Gerard Darel Justin/dhj13h1264001-1.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika12 col-4 text-center" id="slika12">
+			<img src="images/portfolio/Skirt Pablo Sabrina/phj28h5931401-1_002.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika13 col-4 text-center" id="slika13">
+			<img src="images/portfolio/Skirt Pablo Salisha/phj29h7009100-1.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika14 col-4 text-center" id="slika14">
+			<img src="images/portfolio/Skirt Pablo Seychelles/phj34h5349100-1_003.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika15 col-4 text-center" id="slika15">
+			<img src="images/portfolio/Skirt Pablo Solal/phj33h5089100-1_003.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika16 col-4 text-center" id="slika16">
+			<img src="images/portfolio/Skirt Pablo Shanice/phj21h5487101-1_002.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika17 col-4 text-center" id="slika17">
+			<img src="images/portfolio/Skirt Pablo Sibelle/phj22h5579100-1.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika18 col-4 text-center" id="slika18">
+			<img src="images/portfolio/Skirt Pablo Sky/phj36h5171501-1_002.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika19 col-4 text-center" id="slika19">
+			<img src="images/portfolio/Trousers Gerard Darel PRINTED SILK PANTS/dmp43m1825701-1.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+		<div class="slika20 col-4 text-center" id="slika20">
+			<img src="images/portfolio/Trousers Gerard Darel WIDE-LEG GINGHAM LINEN PANTS/dmp62m0379100-1.jpg" style="width:300px; height:400px">
+			<br>
+			<br>
+			<p id="text">Skirt Caroll Casta<br>autumn 2020.</p>
+		</div>
+	</div>
+</section>
+<br>
+<!-- Portfolio-->
+
+<!--SLAJDER-->
+<div style="display:none;">
+	<div id="ninja-slider">
+		<div class="slider-inner">
+			<ul>
+				<li>
+					<a class="ns-img" href="images/portfolio/Skirt Caroll Bergame/KB00007U-01-jupe-femme-bergame.jpg" ></a>
+
+					<div class="row">
+						<div class="gallery-photos bottom">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-01-jupe-femme-bergame_002.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-02-jupe-femme-noir-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-03-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-04-vue-silhouette-sur-jupe-femme-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-06-packshot-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+						</div>
+					</div>
+				</li>
+				<li>
+					<a class="ns-img" href="images/portfolio/Skirt Caroll Bergame/KB00007U-02-jupe-femme-noir-bergame.jpg"></a>
+					<div class="row">
+						<div class="gallery-photos bottom">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-01-jupe-femme-bergame_002.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-02-jupe-femme-noir-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-03-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-04-vue-silhouette-sur-jupe-femme-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-06-packshot-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+						</div>
+					</div>
+				</li>
+				<li>
+					<a class="ns-img" href="images/portfolio/Skirt Caroll Bergame/KB00007U-03-jupe-femme-polyester-bergame.jpg"></a>
+					<div class="row">
+						<div class="gallery-photos bottom">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-01-jupe-femme-bergame_002.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-02-jupe-femme-noir-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-03-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-04-vue-silhouette-sur-jupe-femme-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-06-packshot-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+						</div>
+					</div>
+				</li>
+				<li>
+					<a class="ns-img" href="images/portfolio/Skirt Caroll Bergame/KB00007U-04-vue-silhouette-sur-jupe-femme-bergame.jpg"></a>
+					<div class="row">
+						<div class="gallery-photos bottom">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-01-jupe-femme-bergame_002.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-02-jupe-femme-noir-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-03-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-04-vue-silhouette-sur-jupe-femme-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-06-packshot-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+						</div>
+					</div>
+				</li>
+				<li>
+					<a class="ns-img" href="images/portfolio/Skirt Caroll Bergame/KB00007U-06-packshot-jupe-femme-polyester-bergame.jpg"></a>
+					<div class="row">
+						<div class="gallery-photos bottom">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-01-jupe-femme-bergame_002.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-02-jupe-femme-noir-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-03-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-04-vue-silhouette-sur-jupe-femme-bergame.jpg" style="width:100px; height: 160px;">
+							<img src="images/portfolio/Skirt Caroll Bergame/KB00007U-06-packshot-jupe-femme-polyester-bergame.jpg" style="width:100px; height: 160px;">
+						</div>
+					</div>
+				</li>
+
+			</ul>
+			<div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+		</div>
+	</div>
+</div>
+<!--SLAJDER-->
+
+
+<!-- our clients-->
+<section id="our_clients">
+	<div class="row">
+		<h4 class="w-100 col-12 text-center py-2" id="text">OUR CLIENTS</h4>
+		<hr class="hr_about">
+	</div>
+	<div class="row" id="intro_pic" style="background-color: #f2f2f2;">
+		<div class="container11 text-center py-5" id="partner_scroll">
+			<br>
+			<div class="col1">
+				<img src="images/partners/1.png" id="one" style="width: 350px; height: 150px; padding: 10px; margin: 13px;">
+			</div>
+			<div class="col1">
+				<img src="images/partners/2.png" id="two" style="width: 350px; height: 150px; padding: 10px; margin: 13px;">
+			</div>
+			<div class="col1">
+				<img src="images/partners/3.png" id="three" style="width: 350px; height: 150px;padding: 10px; margin: 13px;">
+			</div>
+			<div class="col1">
+				<img src="images/partners/4.png" id="four" style="width: 350px; height: 150px; padding: 10px; margin: 13px;">
+			</div>
+			<div class="col1">
+				<img src="images/partners/5.png" id="five" style="width: 350px; height: 150px; padding: 10px; margin: 13px;">
+			</div>
+			<div class="col1">
+				<img src="images/partners/6.png" id="six" style="width: 200px; height: 150px; padding: 10px; margin: 13px;">
+			</div>
+			<div class="col1">
+				<img src="images/partners/7.png" id="seven" style="width: 250px; height: 150px; padding: 10px; margin: 13px;">
+			</div>
+		</div>
+	</div>
+	<!-- our clients -->
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<!--contact-->
+
+	<section id="contact_us">
+		<div class="row" id="first" style="background-color: #F2F2F2;">
+			<h4 class="w-100 col-12 text-center py-2" id="text">CONTACT</h4>
+			<hr class="hr_about">
+		</div>
+		<br>
+		<br>
+		<div class="container">
+			<div class="row text-center	col-12">
+				<form>
+					<input type="text" name="name" class="form-control" placeholder="NAME:" required=""><br>
+					<input type="text" name="company" class="form-control" placeholder="YOUR COMPANY NAME:" required=""><br>
+					<input type="email" name="email" class="form-control" placeholder="EMAIL:"><br>
+					<input type="country" name="country" class="form-control" placeholder="FROM WHICH COUNTRY ARE YOU FROM"><br>
+					<input type="country" name="country" class="form-control" placeholder="TELL US MORE ABOUT YOUR IDEAS:"><br>
+					<input type="submit" name="" class="form-control submit" value="SUBMIT">
+				</form>
+			</div>
+		</div>
+	</section>
+	<br>
+	<br>
+	<!--contact-->
+
+	<!--how to reach us-->
+	<section id="how_to_reach_us">
+		<div class="row" id="first" style="background-color: #F2F2F2;">
+			<h4 class="col-12 py-2" id="text">HOW TO REACH US</h4>
+			<hr class="hr_about">
+		</div>
+		<br>
+		<br>
+		<div class="omotac" style="background-color: #333131">
+			<br>
+
+			<div id="map">
+			</div>
+			<br>
+			<div class="row" style="width: 1000px; margin: 0 auto;">
+				<div class="podaci">
+					<img src="images/icons/7.png" id="iconss"><span class="p" >Lorem 
+					ipsum 38</span>
+				</div>
+
+				<div class="podaci">
+					<img src="images/icons/8.png" id="iconss"> <span class="p">0321558788</span>
+				</div>
+
+				<div class="podaci">
+					<img src="images/icons/9.png" id="iconss"> <span class="p">Every day 09-19h</span>
+				</div>
+			</div>
+			<br>
+			<div class="row" style="width: 500px; margin: 0 auto;">
+				<div class="col-4 text-center img-fluid">
+					<a href="#"><img src="images/icons/10.png" id="iconss"></a>
+					<p style="color: white; font-size: 25px;">Linkedin</p>
+				</div>
+
+				<div class="col-4 text-center img-fluid">
+					<a href="#"><img src="images/icons/11.png" id="iconss"></a>
+					<p style="color: white; font-size: 25px;">Instagram</p>
+				</div>
+
+				<div class="col-4 text-center img-fluid">
+				<a href="#"><img src="images/icons/12.png" id="iconss"></a>
+					<p style="color: white; font-size: 25px;">Pinterest</p>
+				</div>
+			</div>
+		</section>
+
+
+		<footer>
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 text-center">
+						<button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#privacy"><a href="#privacy" class="text-decoration-none">PRIVACY POLICE</a></button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="privacy" role="dialog">
+							<div class="modal-dialog modal-xl text-center">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+									</div>
+									<div class="modal-body text-center" style="margin: 0 auto;">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit. Sit amet massa vitae tortor condimentum lacinia quis vel. Velit dignissim sodales ut eu sem. Maecenas ultricies mi eget mauris pharetra et ultrices. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Lacus luctus accumsan tortor posuere. Vulputate sapien nec sagittis aliquam malesuada. Ante metus dictum at tempor commodo ullamcorper. Est placerat in egestas erat imperdiet sed euismod. Iaculis nunc sed augue lacus viverra vitae congue eu. Mattis rhoncus urna neque viverra justo. Amet dictum sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed. Congue quisque egestas diam in arcu. Cras ornare arcu dui vivamus arcu felis bibendum ut.
+
+											Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Volutpat consequat mauris nunc congue nisi vitae suscipit. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim. Lectus proin nibh nisl condimentum id. Sem integer vitae justo eget. Morbi quis commodo odio aenean sed adipiscing. Amet nisl purus in mollis nunc sed id semper risus. Diam in arcu cursus euismod quis viverra nibh. Ut enim blandit volutpat maecenas volutpat. Nisl pretium fusce id velit ut tortor pretium. Vestibulum morbi blandit cursus risus at. In arcu cursus euismod quis viverra nibh cras pulvinar mattis.
+
+										Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Platea dictumst quisque sagittis purus sit amet. Eu lobortis elementum nibh tellus molestie nunc. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Leo in vitae turpis massa sed elementum tempus. Ac felis donec et odio pellentesque diam volutpat commodo. Enim neque volutpat ac tincidunt vitae semper quis lectus. Feugiat in ante metus dictum at. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Sed sed risus pretium quam vulputate dignissim suspendisse. Varius quam quisque id diam vel quam elementum pulvinar etiam. Faucibus vitae aliquet nec ullamcorper sit amet.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#terms"><a href="#terms" class="text-decoration-none">TERMS OF SERVICE</a></button>
+						<!-- Modal -->
+						<div class="modal fade" id="terms" role="dialog">
+							<div class="modal-dialog modal-xl text-center">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+									</div>
+									<div class="modal-body text-center" style="margin: 0 auto;">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam non nisi est sit. Sit amet massa vitae tortor condimentum lacinia quis vel. Velit dignissim sodales ut eu sem. Maecenas ultricies mi eget mauris pharetra et ultrices. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Lacus luctus accumsan tortor posuere. Vulputate sapien nec sagittis aliquam malesuada. Ante metus dictum at tempor commodo ullamcorper. Est placerat in egestas erat imperdiet sed euismod. Iaculis nunc sed augue lacus viverra vitae congue eu. Mattis rhoncus urna neque viverra justo. Amet dictum sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed. Congue quisque egestas diam in arcu. Cras ornare arcu dui vivamus arcu felis bibendum ut.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+		<!--how to reach us-->
+
+
+
+		<script src="js/jquery-3.5.0.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+		<script src="js/leaflet.js"></script>
+		<script>
+			/***lightbox***/
+			function lightbox(idx) {
+            //show the slider's wrapper: this is required when the transitionType has been set to "slide" in the ninja-slider.js
+            var ninjaSldr = document.getElementById("ninja-slider");
+            ninjaSldr.parentNode.style.display = "block";
+
+            nslider.init(idx);
+
+            var fsBtn = document.getElementById("fsBtn");
+            fsBtn.click();
+        }
+
+        function fsIconClick(isFullscreen, ninjaSldr) { //fsIconClick is the default event handler of the fullscreen button
+        	if (isFullscreen) {
+        		ninjaSldr.parentNode.style.display = "none";
+        	}
+        }
+        /***lightbox***/
+        /***mapa***/
+        var myMap = L.map('map', {
+        	center: [50.046, 10.239],
+        	zoom: 13
+        });
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        	attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(myMap);
+
+        let buttons = document.getElementsByTagName("button");
+        /***mapa***/
+        
+        /**fade in/out***/
+
+       $(function() {
+
+       	var documentEl = $(document),
+       	fadeElem = $('.p');
+
+       	documentEl.on('scroll', function(){
+       		var currScrollPos = documentEl.scrollTop();
+       		fadeElem.each(function(){
+       			var $this = $(this),
+       			elemOffsetTop = $this.offset().top;
+       			if( currScrollPos > elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/400);
+       		});
+       	});
+       });
+
+    </script>
+</body>
+</html>
